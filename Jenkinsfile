@@ -9,7 +9,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/bandhavi23-06/git-4.git'
+                    url: 'https://github.com/bandhavi23-06/gitpro-4.git'
             }
         }
 
